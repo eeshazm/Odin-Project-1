@@ -11,7 +11,7 @@ body{
     justify-content: space-around;
     align-items: center;
     color: #fff;
-    height: 50px;
+    height: 40px;
     background: #1f2937;
     font-size: 24px;
 }
@@ -22,14 +22,22 @@ body{
 
 }
 
+.wrapper{
+    display: flex
+}
+
 .hero{
-    border:red solid;
+    background: #1f2937;
+    color: #fff;
+    display: flex;
+    justify-content: center;
 }
 
 .info{
-    border: solid aquamarine;
+    background-color: #fff;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .info-items{
@@ -51,11 +59,22 @@ body{
 }
 
 .quote{
-    border: solid blueviolet;
+    background: #e5e7eb;
+
+}
+
+.quote .wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
+.quoter{
+    display: flex;
+    flex-direction: row-reverse ;
 }
 
 .action{
-    border: solid brown;
+    background-color: #ffffff;
 }
 
 .footer {
