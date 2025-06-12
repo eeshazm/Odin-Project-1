@@ -125,18 +125,31 @@ img{
 
 .quote{
     background: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
 }
 
 .quote .wrapper{
     display: flex;
     flex-direction: column;
+    max-width: 815px;
+    font-size: 36px;
+    font-style: light italic;
+    color: #1f2937;
+    gap: 0px;
+}
+
+.quote p{
+    margin: 0px;
 }
 
 .quoter{
-    display: flex;
-    flex-direction: row-reverse ;
+    align-self: flex-end;
+    font-weight: 700;
 }
+
 
 .action{
     background-color: #ffffff;
