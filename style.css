@@ -128,7 +128,6 @@ img{
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
 
 .quote .wrapper{
@@ -155,6 +154,7 @@ img{
     background-color: #ffffff;
     display: flex;
     justify-content: center;
+    height: 210px;
 
 }
 
