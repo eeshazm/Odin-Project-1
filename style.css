@@ -51,7 +51,6 @@ a{
     flex: 1;
 }
 
-
 img{
     width: 520px;
     height: 200px;
@@ -103,26 +102,25 @@ img{
     color: #1f2937;
 }
 
-.info .wrapper p{
-    max-width: 140px;
-}
-
 .info-items{
     display: flex;
+    justify-content: space-between;
+    gap: 50px;
 }
 
 .item{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
-
+    max-width: 150px;
 }
 
 .box{
-    border: solid #3882f6;
-    height: 50px;
-    width: 50px;
-    border-radius: 5px;
+    border: solid #3882f6 4px;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
 }
 
 .quote{
